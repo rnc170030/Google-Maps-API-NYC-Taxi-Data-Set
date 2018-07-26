@@ -7,7 +7,7 @@ Created on Fri Apr 20 20:06:55 2018
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import googlemaps
-gmaps = googlemaps.Client(key='AIzaSyABkTFemTNy1ct-tx0wMh-41MpZw3btKlU')
+gmaps = googlemaps.Client(key='******************')
 import datetime
 from dateutil.relativedelta import relativedelta
 import datedelta
@@ -39,7 +39,7 @@ import urllib.request, json
 for i in range(1, 99):
 #Google MapsDdirections API endpoint
     endpoint = 'https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&'
-    api_key = 'AIzaSyABkTFemTNy1ct-tx0wMh-41MpZw3btKlU'
+    api_key = '*********************'
     orig_coord = str(df.pickup_latitude[i]) + ',' + str(df.pickup_longitude[i])
 
     dest_coord = str(df.dropoff_latitude[i]) +',' + str(df.dropoff_longitude[i])
