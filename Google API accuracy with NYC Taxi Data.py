@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Apr 20 20:06:55 2018
 
-@author: ravi_
-"""
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import googlemaps
